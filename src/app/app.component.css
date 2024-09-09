@@ -1,0 +1,12 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+  .login-form {
+    width: 350px;
+    margin: 100px auto;
+  }
+
+  .btn{
+    margin-left: 12px;
+  }

@@ -1,0 +1,7 @@
+<h1>Component A</h1>
+<div>
+    <input type="text" #input>
+    <button (click)="printValue(input.value)">Send to B</button>
+</div>
+<p>Component B Output: {{recData}}</p>
+<app-component-b [inputValue]="printedValueA" (dataEvent)="receiveData($event)"></app-component-b>
